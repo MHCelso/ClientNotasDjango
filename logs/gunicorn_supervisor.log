@@ -13334,3 +13334,1289 @@ Not Found: /api/notas
 [2016-04-29 19:46:57 +0000] [3461] [DEBUG] DELETE /api/notas
 Not Found: /api/notas
 [2016-04-29 19:46:57 +0000] [3457] [DEBUG] DELETE /api/notas/
+[2016-04-29 15:01:54 +0000] [3448] [INFO] Handling signal: term
+[2016-04-29 20:01:54 +0000] [3457] [INFO] Worker exiting (pid: 3457)
+[2016-04-29 20:01:54 +0000] [3458] [INFO] Worker exiting (pid: 3458)
+[2016-04-29 20:01:54 +0000] [3461] [INFO] Worker exiting (pid: 3461)
+[2016-04-29 15:01:55 +0000] [3448] [INFO] Shutting down: Master
+Starting servicelso as root
+[2016-04-30 18:03:01 +0000] [1367] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f9003580050>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f9003575cf8>
+  pre_fork: <function pre_fork at 0x7f9003575e60>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: servicelso
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f9003575b90>
+  pre_exec: <function pre_exec at 0x7f90035805f0>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f90035801b8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f9003580c80>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f9003580758>
+  post_request: <function post_request at 0x7f9003580848>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f9003580320>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f90035809b0>
+  chdir: /var/www/envForApi/service
+  paste: None
+  default_proc_name: service.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f9003575a28>
+  worker_abort: <function worker_abort at 0x7f9003580488>
+  bind: ['unix:/var/www/envForApi/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f9003580b18>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-04-30 18:03:01 +0000] [1367] [INFO] Starting gunicorn 19.4.5
+[2016-04-30 18:03:01 +0000] [1367] [DEBUG] Arbiter booted
+[2016-04-30 18:03:01 +0000] [1367] [INFO] Listening at: unix:/var/www/envForApi/run/gunicorn.sock (1367)
+[2016-04-30 18:03:01 +0000] [1367] [INFO] Using worker: sync
+[2016-04-30 18:03:01 +0000] [1421] [INFO] Booting worker with pid: 1421
+[2016-04-30 18:03:01 +0000] [1423] [INFO] Booting worker with pid: 1423
+[2016-04-30 18:03:01 +0000] [1424] [INFO] Booting worker with pid: 1424
+[2016-04-30 18:03:01 +0000] [1367] [DEBUG] 3 workers
+[2016-04-30 19:30:12 +0000] [1367] [INFO] Handling signal: term
+[2016-05-01 00:30:12 +0000] [1421] [INFO] Worker exiting (pid: 1421)
+[2016-05-01 00:30:12 +0000] [1423] [INFO] Worker exiting (pid: 1423)
+[2016-05-01 00:30:12 +0000] [1424] [INFO] Worker exiting (pid: 1424)
+[2016-04-30 19:30:12 +0000] [1367] [INFO] Shutting down: Master
+Starting servicelso as root
+[2016-05-01 00:51:38 +0000] [1352] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fa0b22aa050>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fa0b229fcf8>
+  pre_fork: <function pre_fork at 0x7fa0b229fe60>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: servicelso
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fa0b229fb90>
+  pre_exec: <function pre_exec at 0x7fa0b22aa5f0>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7fa0b22aa1b8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7fa0b22aac80>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fa0b22aa758>
+  post_request: <function post_request at 0x7fa0b22aa848>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fa0b22aa320>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7fa0b22aa9b0>
+  chdir: /var/www/envForApi/service
+  paste: None
+  default_proc_name: service.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7fa0b229fa28>
+  worker_abort: <function worker_abort at 0x7fa0b22aa488>
+  bind: ['unix:/var/www/envForApi/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fa0b22aab18>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-01 00:51:38 +0000] [1352] [INFO] Starting gunicorn 19.4.5
+[2016-05-01 00:51:38 +0000] [1352] [DEBUG] Arbiter booted
+[2016-05-01 00:51:38 +0000] [1352] [INFO] Listening at: unix:/var/www/envForApi/run/gunicorn.sock (1352)
+[2016-05-01 00:51:38 +0000] [1352] [INFO] Using worker: sync
+[2016-05-01 00:51:38 +0000] [1405] [INFO] Booting worker with pid: 1405
+[2016-05-01 00:51:38 +0000] [1406] [INFO] Booting worker with pid: 1406
+[2016-05-01 00:51:38 +0000] [1407] [INFO] Booting worker with pid: 1407
+[2016-05-01 00:51:38 +0000] [1352] [DEBUG] 3 workers
+[2016-05-01 04:01:05 +0000] [1352] [INFO] Handling signal: term
+[2016-05-01 09:01:05 +0000] [1405] [INFO] Worker exiting (pid: 1405)
+[2016-05-01 09:01:05 +0000] [1407] [INFO] Worker exiting (pid: 1407)
+[2016-05-01 09:01:05 +0000] [1406] [INFO] Worker exiting (pid: 1406)
+[2016-05-01 04:01:05 +0000] [1352] [INFO] Shutting down: Master
+Starting servicelso as root
+[2016-05-01 09:21:14 +0000] [1357] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fabe30af050>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fabe30a4cf8>
+  pre_fork: <function pre_fork at 0x7fabe30a4e60>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: servicelso
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fabe30a4b90>
+  pre_exec: <function pre_exec at 0x7fabe30af5f0>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7fabe30af1b8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7fabe30afc80>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fabe30af758>
+  post_request: <function post_request at 0x7fabe30af848>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fabe30af320>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7fabe30af9b0>
+  chdir: /var/www/envForApi/service
+  paste: None
+  default_proc_name: service.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7fabe30a4a28>
+  worker_abort: <function worker_abort at 0x7fabe30af488>
+  bind: ['unix:/var/www/envForApi/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fabe30afb18>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-01 09:21:14 +0000] [1357] [INFO] Starting gunicorn 19.4.5
+[2016-05-01 09:21:14 +0000] [1357] [DEBUG] Arbiter booted
+[2016-05-01 09:21:14 +0000] [1357] [INFO] Listening at: unix:/var/www/envForApi/run/gunicorn.sock (1357)
+[2016-05-01 09:21:14 +0000] [1357] [INFO] Using worker: sync
+[2016-05-01 09:21:14 +0000] [1409] [INFO] Booting worker with pid: 1409
+[2016-05-01 09:21:15 +0000] [1414] [INFO] Booting worker with pid: 1414
+[2016-05-01 09:21:15 +0000] [1417] [INFO] Booting worker with pid: 1417
+[2016-05-01 09:21:15 +0000] [1357] [DEBUG] 3 workers
+[2016-05-01 10:41:37 +0000] [1357] [INFO] Handling signal: term
+[2016-05-01 15:41:37 +0000] [1409] [INFO] Worker exiting (pid: 1409)
+[2016-05-01 15:41:37 +0000] [1417] [INFO] Worker exiting (pid: 1417)
+[2016-05-01 15:41:37 +0000] [1414] [INFO] Worker exiting (pid: 1414)
+[2016-05-01 10:41:37 +0000] [1357] [INFO] Shutting down: Master
+Starting servicelso as root
+[2016-05-01 23:25:54 +0000] [1344] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f93533be050>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f93533b3cf8>
+  pre_fork: <function pre_fork at 0x7f93533b3e60>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: servicelso
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f93533b3b90>
+  pre_exec: <function pre_exec at 0x7f93533be5f0>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f93533be1b8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f93533bec80>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f93533be758>
+  post_request: <function post_request at 0x7f93533be848>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f93533be320>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f93533be9b0>
+  chdir: /var/www/envForApi/service
+  paste: None
+  default_proc_name: service.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f93533b3a28>
+  worker_abort: <function worker_abort at 0x7f93533be488>
+  bind: ['unix:/var/www/envForApi/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f93533beb18>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-01 23:25:54 +0000] [1344] [INFO] Starting gunicorn 19.4.5
+[2016-05-01 23:25:54 +0000] [1344] [DEBUG] Arbiter booted
+[2016-05-01 23:25:54 +0000] [1344] [INFO] Listening at: unix:/var/www/envForApi/run/gunicorn.sock (1344)
+[2016-05-01 23:25:54 +0000] [1344] [INFO] Using worker: sync
+[2016-05-01 23:25:54 +0000] [1395] [INFO] Booting worker with pid: 1395
+[2016-05-01 23:25:54 +0000] [1399] [INFO] Booting worker with pid: 1399
+[2016-05-01 23:25:54 +0000] [1401] [INFO] Booting worker with pid: 1401
+[2016-05-01 23:25:54 +0000] [1344] [DEBUG] 3 workers
+[2016-05-02 06:25:30 +0000] [1344] [INFO] Handling signal: term
+[2016-05-02 11:25:30 +0000] [1395] [INFO] Worker exiting (pid: 1395)
+[2016-05-02 11:25:30 +0000] [1399] [INFO] Worker exiting (pid: 1399)
+[2016-05-02 11:25:30 +0000] [1401] [INFO] Worker exiting (pid: 1401)
+[2016-05-02 06:25:30 +0000] [1344] [INFO] Shutting down: Master
+Starting servicelso as root
+[2016-05-02 08:18:02 +0000] [1426] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f8110050050>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f8110045cf8>
+  pre_fork: <function pre_fork at 0x7f8110045e60>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: servicelso
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f8110045b90>
+  pre_exec: <function pre_exec at 0x7f81100505f0>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f81100501b8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f8110050c80>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f8110050758>
+  post_request: <function post_request at 0x7f8110050848>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f8110050320>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f81100509b0>
+  chdir: /var/www/envForApi/service
+  paste: None
+  default_proc_name: service.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f8110045a28>
+  worker_abort: <function worker_abort at 0x7f8110050488>
+  bind: ['unix:/var/www/envForApi/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f8110050b18>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-02 08:18:02 +0000] [1426] [INFO] Starting gunicorn 19.4.5
+[2016-05-02 08:18:02 +0000] [1426] [DEBUG] Arbiter booted
+[2016-05-02 08:18:02 +0000] [1426] [INFO] Listening at: unix:/var/www/envForApi/run/gunicorn.sock (1426)
+[2016-05-02 08:18:02 +0000] [1426] [INFO] Using worker: sync
+[2016-05-02 08:18:02 +0000] [1539] [INFO] Booting worker with pid: 1539
+[2016-05-02 08:18:02 +0000] [1541] [INFO] Booting worker with pid: 1541
+[2016-05-02 08:18:02 +0000] [1543] [INFO] Booting worker with pid: 1543
+[2016-05-02 08:18:02 +0000] [1426] [DEBUG] 3 workers
+[2016-05-02 09:34:40 +0000] [1426] [INFO] Handling signal: term
+[2016-05-02 14:34:40 +0000] [1539] [INFO] Worker exiting (pid: 1539)
+[2016-05-02 14:34:40 +0000] [1541] [INFO] Worker exiting (pid: 1541)
+[2016-05-02 14:34:40 +0000] [1543] [INFO] Worker exiting (pid: 1543)
+[2016-05-02 09:34:40 +0000] [1426] [INFO] Shutting down: Master
+Starting servicelso as root
+[2016-05-02 09:35:44 +0000] [1386] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f1d1cf87050>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f1d1cf7ccf8>
+  pre_fork: <function pre_fork at 0x7f1d1cf7ce60>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: servicelso
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f1d1cf7cb90>
+  pre_exec: <function pre_exec at 0x7f1d1cf875f0>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f1d1cf871b8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f1d1cf87c80>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f1d1cf87758>
+  post_request: <function post_request at 0x7f1d1cf87848>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f1d1cf87320>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f1d1cf879b0>
+  chdir: /var/www/envForApi/service
+  paste: None
+  default_proc_name: service.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f1d1cf7ca28>
+  worker_abort: <function worker_abort at 0x7f1d1cf87488>
+  bind: ['unix:/var/www/envForApi/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f1d1cf87b18>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-02 09:35:44 +0000] [1386] [INFO] Starting gunicorn 19.4.5
+[2016-05-02 09:35:44 +0000] [1386] [DEBUG] Arbiter booted
+[2016-05-02 09:35:44 +0000] [1386] [INFO] Listening at: unix:/var/www/envForApi/run/gunicorn.sock (1386)
+[2016-05-02 09:35:44 +0000] [1386] [INFO] Using worker: sync
+[2016-05-02 09:35:44 +0000] [1444] [INFO] Booting worker with pid: 1444
+[2016-05-02 09:35:44 +0000] [1445] [INFO] Booting worker with pid: 1445
+[2016-05-02 09:35:44 +0000] [1448] [INFO] Booting worker with pid: 1448
+[2016-05-02 09:35:44 +0000] [1386] [DEBUG] 3 workers
+[2016-05-02 14:44:57 +0000] [1445] [DEBUG] GET /
+/var/www/envForApi/service/service/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got principel.views.home). Pass the callable instead.
+  url(r'^$', 'principel.views.home', name='home'),
+
+[2016-05-02 14:44:58 +0000] [1444] [DEBUG] DELETE /api/notas
+[2016-05-02 14:44:58 +0000] [1445] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2016-05-02 14:44:58 +0000] [1445] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+/var/www/envForApi/service/service/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got principel.views.home). Pass the callable instead.
+  url(r'^$', 'principel.views.home', name='home'),
+
+Not Found: /api/notas
+[2016-05-02 14:44:58 +0000] [1448] [DEBUG] DELETE /api/notas/
+/var/www/envForApi/service/service/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got principel.views.home). Pass the callable instead.
+  url(r'^$', 'principel.views.home', name='home'),
+
+[2016-05-02 14:45:06 +0000] [1448] [DEBUG] GET /api/notas
+Not Found: /api/notas
+[2016-05-02 14:45:07 +0000] [1445] [DEBUG] GET /api/notas/
+[2016-05-02 14:49:55 +0000] [1444] [DEBUG] GET /
+[2016-05-02 14:49:55 +0000] [1445] [DEBUG] DELETE /api/notas
+Not Found: /api/notas
+[2016-05-02 14:49:55 +0000] [1444] [DEBUG] DELETE /api/notas/
+[2016-05-02 14:50:57 +0000] [1444] [DEBUG] GET /
+[2016-05-02 14:50:58 +0000] [1448] [DEBUG] DELETE /api/notas
+Not Found: /api/notas
+[2016-05-02 14:50:58 +0000] [1448] [DEBUG] DELETE /api/notas/
+[2016-05-02 14:57:27 +0000] [1444] [DEBUG] GET /
+[2016-05-02 15:05:12 +0000] [1445] [DEBUG] GET /
+[2016-05-02 15:06:35 +0000] [1444] [DEBUG] GET /
+[2016-05-02 15:06:54 +0000] [1445] [DEBUG] GET /
+[2016-05-02 15:07:29 +0000] [1444] [DEBUG] GET /
+[2016-05-02 15:07:45 +0000] [1445] [DEBUG] GET /
+[2016-05-02 15:23:30 +0000] [1448] [DEBUG] GET /
+[2016-05-02 15:23:30 +0000] [1445] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2016-05-02 15:23:43 +0000] [1444] [DEBUG] GET /
+[2016-05-02 15:24:29 +0000] [1445] [DEBUG] GET /
+[2016-05-02 15:27:17 +0000] [1448] [DEBUG] GET /
+[2016-05-02 15:27:17 +0000] [1444] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2016-05-02 15:27:37 +0000] [1444] [DEBUG] GET /
+[2016-05-02 15:27:38 +0000] [1448] [DEBUG] GET /
+[2016-05-02 15:27:38 +0000] [1444] [DEBUG] GET /
+[2016-05-02 15:27:38 +0000] [1444] [DEBUG] GET /
+[2016-05-02 15:27:39 +0000] [1445] [DEBUG] GET /
+[2016-05-02 10:30:08 +0000] [1386] [INFO] Handling signal: term
+[2016-05-02 15:30:08 +0000] [1448] [INFO] Worker exiting (pid: 1448)
+[2016-05-02 15:30:08 +0000] [1445] [INFO] Worker exiting (pid: 1445)
+[2016-05-02 15:30:08 +0000] [1444] [INFO] Worker exiting (pid: 1444)
+[2016-05-02 10:30:08 +0000] [1386] [INFO] Shutting down: Master
+Starting servicelso as root
+[2016-05-02 14:09:55 +0000] [1301] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f6a570be050>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f6a570b3cf8>
+  pre_fork: <function pre_fork at 0x7f6a570b3e60>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: servicelso
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f6a570b3b90>
+  pre_exec: <function pre_exec at 0x7f6a570be5f0>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f6a570be1b8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f6a570bec80>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f6a570be758>
+  post_request: <function post_request at 0x7f6a570be848>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f6a570be320>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f6a570be9b0>
+  chdir: /var/www/envForApi/service
+  paste: None
+  default_proc_name: service.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f6a570b3a28>
+  worker_abort: <function worker_abort at 0x7f6a570be488>
+  bind: ['unix:/var/www/envForApi/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f6a570beb18>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-02 14:09:55 +0000] [1301] [INFO] Starting gunicorn 19.4.5
+[2016-05-02 14:09:55 +0000] [1301] [DEBUG] Arbiter booted
+[2016-05-02 14:09:55 +0000] [1301] [INFO] Listening at: unix:/var/www/envForApi/run/gunicorn.sock (1301)
+[2016-05-02 14:09:55 +0000] [1301] [INFO] Using worker: sync
+[2016-05-02 14:09:55 +0000] [1343] [INFO] Booting worker with pid: 1343
+[2016-05-02 14:09:55 +0000] [1346] [INFO] Booting worker with pid: 1346
+[2016-05-02 14:09:55 +0000] [1349] [INFO] Booting worker with pid: 1349
+[2016-05-02 14:09:55 +0000] [1301] [DEBUG] 3 workers
+[2016-05-02 19:17:11 +0000] [1343] [DEBUG] GET /
+/var/www/envForApi/service/service/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got principel.views.home). Pass the callable instead.
+  url(r'^$', 'principel.views.home', name='home'),
+
+[2016-05-02 19:17:13 +0000] [1343] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2016-05-02 19:17:20 +0000] [1343] [DEBUG] GET /api/notas
+Not Found: /api/notas
+[2016-05-02 19:17:20 +0000] [1346] [DEBUG] GET /api/notas/
+/var/www/envForApi/service/service/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got principel.views.home). Pass the callable instead.
+  url(r'^$', 'principel.views.home', name='home'),
+
+[2016-05-02 19:20:19 +0000] [1349] [DEBUG] GET /api/notas/
+/var/www/envForApi/service/service/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got principel.views.home). Pass the callable instead.
+  url(r'^$', 'principel.views.home', name='home'),
+
+[2016-05-02 19:20:20 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:23 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:20:25 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:20:30 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:20:33 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:36 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:20:39 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:42 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:43 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:20:43 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:44 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:20:45 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:20:46 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:20:47 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:20:47 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:20:48 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:48 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:50 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:51 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:52 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:53 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:53 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:53 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:20:54 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:54 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:54 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:54 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:20:55 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:20:55 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:20:55 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:20:55 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:20:55 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:56 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:20:56 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:20:56 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:20:56 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:20:57 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:20:57 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:20:57 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:20:57 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:58 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:20:58 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:20:58 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:58 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:20:58 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:20:58 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:20:58 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:59 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:20:59 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:21:00 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:21:01 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:21:53 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:21:56 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:22:15 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:22:15 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:22:16 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:22:16 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:22:18 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:22:18 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:22:18 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:22:19 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:22:19 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:22:19 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:22:19 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:22:19 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:22:19 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:22:19 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:22:20 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:22:22 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:22:22 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:22:22 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:22:23 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:22:23 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:22:23 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:22:23 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:22:23 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:22:53 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:22:53 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:22:53 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:22:53 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:22:54 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:22:54 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:22:54 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:22:54 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:22:55 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:22:55 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:22:57 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:22:57 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:22:57 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:22:57 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:22:58 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:22:58 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:24:28 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:24:28 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:24:29 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:24:29 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:24:29 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:24:29 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:24:29 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:24:30 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:24:30 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:24:30 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:24:30 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:24:34 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:24:54 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:26:14 +0000] [1346] [DEBUG] GET /api/nota
+Not Found: /api/nota
+[2016-05-02 19:26:18 +0000] [1343] [DEBUG] GET /api/nota/1
+Not Found: /api/nota/1
+[2016-05-02 19:26:21 +0000] [1343] [DEBUG] GET /api/notas/1
+Not Found: /api/notas/1
+[2016-05-02 19:26:21 +0000] [1343] [DEBUG] GET /api/notas/1/
+[2016-05-02 19:26:35 +0000] [1343] [DEBUG] GET /api/notas/15/
+[2016-05-02 19:28:39 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:29:38 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:29:38 +0000] [1343] [DEBUG] POST /api/notas/15
+Not Found: /api/notas/15
+Internal Server Error: /api/notas/15
+Traceback (most recent call last):
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/middleware/common.py", line 115, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/middleware/common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/api/notas/15/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2016-05-02 19:29:40 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:29:41 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:29:42 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:29:42 +0000] [1343] [DEBUG] POST /api/notas/15
+Not Found: /api/notas/15
+Internal Server Error: /api/notas/15
+Traceback (most recent call last):
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/middleware/common.py", line 115, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/middleware/common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/api/notas/15/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2016-05-02 19:29:43 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:29:43 +0000] [1343] [DEBUG] POST /api/notas/15
+Not Found: /api/notas/15
+Internal Server Error: /api/notas/15
+Traceback (most recent call last):
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/middleware/common.py", line 115, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/middleware/common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/api/notas/15/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2016-05-02 19:29:43 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:29:43 +0000] [1343] [DEBUG] POST /api/notas/15
+Not Found: /api/notas/15
+Internal Server Error: /api/notas/15
+Traceback (most recent call last):
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/middleware/common.py", line 115, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/middleware/common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/api/notas/15/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2016-05-02 19:29:44 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:29:44 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:29:44 +0000] [1346] [DEBUG] POST /api/notas/15
+Not Found: /api/notas/15
+Internal Server Error: /api/notas/15
+Traceback (most recent call last):
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/middleware/common.py", line 115, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/middleware/common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/api/notas/15/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2016-05-02 19:32:07 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:32:07 +0000] [1349] [DEBUG] POST /api/notas/15
+Not Found: /api/notas/15
+Internal Server Error: /api/notas/15
+Traceback (most recent call last):
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/middleware/common.py", line 115, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/middleware/common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/api/notas/15/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2016-05-02 19:32:37 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:32:37 +0000] [1346] [DEBUG] POST /api/notas/15
+Not Found: /api/notas/15
+Internal Server Error: /api/notas/15
+Traceback (most recent call last):
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/middleware/common.py", line 115, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/middleware/common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/api/notas/15/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2016-05-02 19:33:55 +0000] [1346] [DEBUG] GET /
+[2016-05-02 19:33:56 +0000] [1343] [DEBUG] POST /api/notas/15/
+[2016-05-02 19:40:08 +0000] [1349] [DEBUG] GET /api/notas/15/
+[2016-05-02 19:40:18 +0000] [1343] [DEBUG] PUT /api/notas/15/
+[2016-05-02 19:40:29 +0000] [1343] [DEBUG] PUT /api/notas/15/
+[2016-05-02 19:40:36 +0000] [1349] [DEBUG] OPTIONS /api/notas/15/
+[2016-05-02 19:45:36 +0000] [1349] [DEBUG] GET /api/token/auth/
+Not Found: /api/token/auth/
+[2016-05-02 19:45:51 +0000] [1349] [DEBUG] GET /api-token/auth/
+Not Found: /api-token/auth/
+[2016-05-02 19:46:00 +0000] [1349] [DEBUG] GET /api-token-auth/
+Not Found: /api-token-auth/
+[2016-05-02 19:46:04 +0000] [1349] [DEBUG] GET /api-token-auth/
+Not Found: /api-token-auth/
+[2016-05-02 19:46:10 +0000] [1343] [DEBUG] GET /api-token-auth/:
+Not Found: /api-token-auth/:
+[2016-05-02 19:46:30 +0000] [1349] [DEBUG] GET /api-token-auth/:
+Not Found: /api-token-auth/:
+[2016-05-02 19:46:32 +0000] [1349] [DEBUG] GET /api-token-auth/:
+Not Found: /api-token-auth/:
+[2016-05-02 19:46:41 +0000] [1343] [DEBUG] GET /api/notas
+Not Found: /api/notas
+[2016-05-02 19:46:41 +0000] [1343] [DEBUG] GET /api/notas/
+[2016-05-02 19:46:43 +0000] [1349] [DEBUG] GET /
+[2016-05-02 19:46:45 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:46:45 +0000] [1346] [DEBUG] POST /api/notas/15/
+[2016-05-02 19:46:48 +0000] [1343] [DEBUG] GET /
+[2016-05-02 19:46:48 +0000] [1349] [DEBUG] POST /api/notas/15/
+[2016-05-02 20:00:06 +0000] [1343] [DEBUG] GET /
+[2016-05-02 20:00:07 +0000] [1346] [DEBUG] POST /api/notas/15/
+[2016-05-02 20:00:07 +0000] [1349] [DEBUG] GET /
+[2016-05-02 20:00:08 +0000] [1349] [DEBUG] GET /
+[2016-05-02 20:00:09 +0000] [1343] [DEBUG] GET /
+[2016-05-02 20:00:09 +0000] [1346] [DEBUG] POST /api/notas/15/
+[2016-05-02 15:00:48 +0000] [1301] [INFO] Handling signal: term
+[2016-05-02 20:00:48 +0000] [1349] [INFO] Worker exiting (pid: 1349)
+[2016-05-02 20:00:48 +0000] [1346] [INFO] Worker exiting (pid: 1346)
+[2016-05-02 20:00:48 +0000] [1343] [INFO] Worker exiting (pid: 1343)
+[2016-05-02 15:00:48 +0000] [1301] [INFO] Shutting down: Master
+Starting servicelso as root
+[2016-05-02 15:46:32 +0000] [1341] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f9253ac8050>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f9253abdcf8>
+  pre_fork: <function pre_fork at 0x7f9253abde60>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: servicelso
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f9253abdb90>
+  pre_exec: <function pre_exec at 0x7f9253ac85f0>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f9253ac81b8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f9253ac8c80>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f9253ac8758>
+  post_request: <function post_request at 0x7f9253ac8848>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f9253ac8320>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f9253ac89b0>
+  chdir: /var/www/envForApi/service
+  paste: None
+  default_proc_name: service.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f9253abda28>
+  worker_abort: <function worker_abort at 0x7f9253ac8488>
+  bind: ['unix:/var/www/envForApi/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f9253ac8b18>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-02 15:46:32 +0000] [1341] [INFO] Starting gunicorn 19.4.5
+[2016-05-02 15:46:32 +0000] [1341] [DEBUG] Arbiter booted
+[2016-05-02 15:46:32 +0000] [1341] [INFO] Listening at: unix:/var/www/envForApi/run/gunicorn.sock (1341)
+[2016-05-02 15:46:32 +0000] [1341] [INFO] Using worker: sync
+[2016-05-02 15:46:32 +0000] [1405] [INFO] Booting worker with pid: 1405
+[2016-05-02 15:46:32 +0000] [1408] [INFO] Booting worker with pid: 1408
+[2016-05-02 15:46:32 +0000] [1414] [INFO] Booting worker with pid: 1414
+[2016-05-02 15:46:32 +0000] [1341] [DEBUG] 3 workers
+[2016-05-02 21:39:58 +0000] [1414] [DEBUG] GET /
+/var/www/envForApi/service/service/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got principel.views.home). Pass the callable instead.
+  url(r'^$', 'principel.views.home', name='home'),
+
+[2016-05-02 21:40:00 +0000] [1414] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:40:00 +0000] [1408] [DEBUG] GET /favicon.ico
+/var/www/envForApi/service/service/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got principel.views.home). Pass the callable instead.
+  url(r'^$', 'principel.views.home', name='home'),
+
+Not Found: /favicon.ico
+[2016-05-02 21:40:04 +0000] [1405] [DEBUG] GET /
+/var/www/envForApi/service/service/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got principel.views.home). Pass the callable instead.
+  url(r'^$', 'principel.views.home', name='home'),
+
+[2016-05-02 21:40:05 +0000] [1414] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:40:11 +0000] [1414] [DEBUG] GET /
+[2016-05-02 21:40:11 +0000] [1414] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:40:12 +0000] [1414] [DEBUG] GET /
+[2016-05-02 21:40:12 +0000] [1405] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:40:26 +0000] [1408] [DEBUG] GET /
+[2016-05-02 21:40:26 +0000] [1408] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:40:43 +0000] [1405] [DEBUG] GET /
+[2016-05-02 21:40:44 +0000] [1408] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:40:57 +0000] [1408] [DEBUG] GET /
+[2016-05-02 21:40:58 +0000] [1405] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:41:05 +0000] [1405] [DEBUG] GET /
+[2016-05-02 21:41:06 +0000] [1408] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:41:31 +0000] [1405] [DEBUG] GET /
+[2016-05-02 21:41:32 +0000] [1414] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:41:32 +0000] [1405] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2016-05-02 21:41:33 +0000] [1414] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2016-05-02 21:41:33 +0000] [1414] [DEBUG] GET /
+[2016-05-02 21:41:34 +0000] [1414] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:41:34 +0000] [1414] [DEBUG] GET /
+[2016-05-02 21:41:35 +0000] [1405] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:41:36 +0000] [1405] [DEBUG] GET /
+[2016-05-02 21:41:36 +0000] [1414] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:41:37 +0000] [1408] [DEBUG] GET /
+[2016-05-02 21:41:37 +0000] [1408] [DEBUG] GET /
+[2016-05-02 21:41:37 +0000] [1414] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:42:11 +0000] [1414] [DEBUG] GET /
+[2016-05-02 21:42:11 +0000] [1408] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:42:11 +0000] [1408] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2016-05-02 21:42:11 +0000] [1414] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2016-05-02 21:42:13 +0000] [1405] [DEBUG] GET /
+[2016-05-02 21:42:14 +0000] [1405] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:42:53 +0000] [1414] [DEBUG] GET /
+[2016-05-02 21:42:53 +0000] [1405] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:43:01 +0000] [1414] [DEBUG] GET /api/notas
+Not Found: /api/notas
+[2016-05-02 21:43:01 +0000] [1405] [DEBUG] GET /api/notas/
+[2016-05-02 21:43:17 +0000] [1408] [DEBUG] GET /api/notas/
+[2016-05-02 21:44:34 +0000] [1414] [DEBUG] GET /api/notas/
+[2016-05-02 21:44:37 +0000] [1414] [DEBUG] GET /api/notas/
+[2016-05-02 21:45:44 +0000] [1408] [DEBUG] GET /api/notas/
+[2016-05-02 21:46:42 +0000] [1408] [DEBUG] GET /api/notas/
+[2016-05-02 21:46:43 +0000] [1408] [DEBUG] GET /api/notas/
+[2016-05-02 21:46:55 +0000] [1408] [DEBUG] GET /api/notas/
+[2016-05-02 21:48:28 +0000] [1414] [DEBUG] GET /api/notas/
+[2016-05-02 21:48:34 +0000] [1408] [DEBUG] GET /api/notas/
+[2016-05-02 21:48:48 +0000] [1405] [DEBUG] GET /api/notas/
+[2016-05-02 21:48:51 +0000] [1414] [DEBUG] GET /api/notas/
+[2016-05-02 21:49:40 +0000] [1414] [DEBUG] GET /api/notas/
+[2016-05-02 21:49:42 +0000] [1408] [DEBUG] GET /api/notas/
+[2016-05-02 21:51:02 +0000] [1405] [DEBUG] GET /
+[2016-05-02 21:51:02 +0000] [1408] [DEBUG] POST /api/notas/15/
+[2016-05-02 21:51:02 +0000] [1414] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2016-05-02 21:51:02 +0000] [1414] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2016-05-02 21:51:10 +0000] [1414] [DEBUG] GET /api/notas
+Not Found: /api/notas
+[2016-05-02 21:51:10 +0000] [1414] [DEBUG] GET /api/notas/
+[2016-05-02 21:51:21 +0000] [1405] [DEBUG] GET /api/notas/15
+Not Found: /api/notas/15
+[2016-05-02 21:51:21 +0000] [1405] [DEBUG] GET /api/notas/15/
+[2016-05-02 21:52:05 +0000] [1408] [DEBUG] GET /api/notas/
+[2016-05-02 21:52:07 +0000] [1408] [DEBUG] GET /api/notas/
+[2016-05-02 21:52:08 +0000] [1408] [DEBUG] GET /api/notas/
+[2016-05-02 21:52:19 +0000] [1405] [DEBUG] GET /api/notas/
+[2016-05-02 21:52:29 +0000] [1405] [DEBUG] GET /api/notas/2
+Not Found: /api/notas/2
+[2016-05-02 21:52:29 +0000] [1414] [DEBUG] GET /api/notas/2/
+[2016-05-02 21:52:35 +0000] [1408] [DEBUG] PUT /api/notas/2/
+[2016-05-02 21:53:09 +0000] [1408] [DEBUG] GET /api/notas/
+[2016-05-02 21:53:45 +0000] [1414] [DEBUG] GET /api/notas/
+[2016-05-02 22:12:13 +0000] [1408] [DEBUG] GET /
+[2016-05-02 22:12:13 +0000] [1405] [DEBUG] POST /api/notas/15/
+[2016-05-02 22:12:13 +0000] [1405] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2016-05-02 22:12:13 +0000] [1405] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2016-05-02 22:12:15 +0000] [1408] [DEBUG] GET /
+[2016-05-02 22:12:15 +0000] [1408] [DEBUG] POST /api/notas/15/
+[2016-05-02 22:12:17 +0000] [1408] [DEBUG] GET /
+[2016-05-02 22:12:17 +0000] [1408] [DEBUG] POST /api/notas/15/
+[2016-05-02 22:12:21 +0000] [1414] [DEBUG] GET /
+[2016-05-02 22:12:22 +0000] [1414] [DEBUG] POST /api/notas/15/
+[2016-05-02 23:09:24 +0000] [1408] [DEBUG] GET /
+[2016-05-02 23:09:24 +0000] [1405] [DEBUG] POST /api/notas/15/
+[2016-05-02 23:09:26 +0000] [1405] [DEBUG] GET /
+[2016-05-02 23:09:26 +0000] [1408] [DEBUG] POST /api/notas/15/
+[2016-05-02 23:09:27 +0000] [1405] [DEBUG] GET /
+[2016-05-02 23:09:27 +0000] [1414] [DEBUG] POST /api/notas/15/
+[2016-05-02 23:09:35 +0000] [1405] [DEBUG] GET /api/
+Not Found: /api/
+[2016-05-02 23:09:39 +0000] [1414] [DEBUG] GET /api/notas/
+[2016-05-02 23:09:46 +0000] [1405] [DEBUG] GET /api/notas/
+[2016-05-02 23:09:54 +0000] [1414] [DEBUG] GET /api/notas/19
+Not Found: /api/notas/19
+[2016-05-02 23:09:54 +0000] [1414] [DEBUG] GET /api/notas/19/
+[2016-05-02 23:09:58 +0000] [1405] [DEBUG] DELETE /api/notas/19/
+[2016-05-02 23:10:01 +0000] [1414] [DEBUG] GET /api/notas/
+[2016-05-02 23:10:08 +0000] [1405] [DEBUG] GET /api/notas/18
+Not Found: /api/notas/18
+[2016-05-02 23:10:08 +0000] [1408] [DEBUG] GET /api/notas/18/
+[2016-05-02 23:10:15 +0000] [1405] [DEBUG] PUT /api/notas/18/
+[2016-05-02 23:10:18 +0000] [1405] [DEBUG] GET /api/notas/
+[2016-05-02 23:11:57 +0000] [1408] [DEBUG] GET /
+[2016-05-02 23:11:57 +0000] [1414] [DEBUG] POST /api/notas/15/
+[2016-05-02 23:11:57 +0000] [1414] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2016-05-02 23:11:57 +0000] [1405] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2016-05-02 23:12:16 +0000] [1414] [DEBUG] GET /
+[2016-05-02 23:12:16 +0000] [1414] [DEBUG] POST /api/notas/15/
+[2016-05-02 23:12:37 +0000] [1405] [DEBUG] GET /
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/envForApi/service/principel/views.py", line 11, in home
+    #     return render(request, 'cliente.html', {})
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/template/loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/template/loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/template/backends/django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/template/engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/var/www/envForApi/local/lib/python2.7/site-packages/django/template/base.py", line 487, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: Could not parse the remainder: '% for notai in notitas %' from '% for notai in notitas %'
+[2016-05-02 23:13:03 +0000] [1408] [DEBUG] GET /
+[2016-05-02 23:13:03 +0000] [1414] [DEBUG] POST /api/notas/15/
+[2016-05-02 23:13:07 +0000] [1414] [DEBUG] GET /
+[2016-05-02 23:13:07 +0000] [1405] [DEBUG] POST /api/notas/15/
+[2016-05-02 23:14:26 +0000] [1414] [DEBUG] GET /
+[2016-05-02 23:14:27 +0000] [1414] [DEBUG] POST /api/notas/15/
+[2016-05-02 18:19:41 +0000] [1341] [INFO] Handling signal: term
+[2016-05-02 23:19:41 +0000] [1408] [INFO] Worker exiting (pid: 1408)
+[2016-05-02 23:19:41 +0000] [1405] [INFO] Worker exiting (pid: 1405)
+[2016-05-02 23:19:41 +0000] [1414] [INFO] Worker exiting (pid: 1414)
+[2016-05-02 18:19:41 +0000] [1341] [INFO] Shutting down: Master
+Starting servicelso as root
+[2016-05-02 18:19:43 +0000] [5590] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f9314783050>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f9314778cf8>
+  pre_fork: <function pre_fork at 0x7f9314778e60>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: servicelso
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f9314778b90>
+  pre_exec: <function pre_exec at 0x7f93147835f0>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f93147831b8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f9314783c80>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f9314783758>
+  post_request: <function post_request at 0x7f9314783848>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f9314783320>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f93147839b0>
+  chdir: /var/www/envForApi/service
+  paste: None
+  default_proc_name: service.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f9314778a28>
+  worker_abort: <function worker_abort at 0x7f9314783488>
+  bind: ['unix:/var/www/envForApi/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f9314783b18>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-02 18:19:43 +0000] [5590] [INFO] Starting gunicorn 19.4.5
+[2016-05-02 18:19:43 +0000] [5590] [DEBUG] Arbiter booted
+[2016-05-02 18:19:43 +0000] [5590] [INFO] Listening at: unix:/var/www/envForApi/run/gunicorn.sock (5590)
+[2016-05-02 18:19:43 +0000] [5590] [INFO] Using worker: sync
+[2016-05-02 18:19:43 +0000] [5599] [INFO] Booting worker with pid: 5599
+[2016-05-02 18:19:43 +0000] [5600] [INFO] Booting worker with pid: 5600
+[2016-05-02 18:19:43 +0000] [5601] [INFO] Booting worker with pid: 5601
+[2016-05-02 18:19:43 +0000] [5590] [DEBUG] 3 workers
+[2016-05-02 23:19:51 +0000] [5601] [DEBUG] GET /
+[2016-05-02 23:19:51 +0000] [5599] [DEBUG] POST /api/notas/15/
+[2016-05-02 23:20:45 +0000] [5599] [DEBUG] GET /api/notas/
+[2016-05-02 23:21:02 +0000] [5599] [DEBUG] GET /
+[2016-05-02 23:21:02 +0000] [5601] [DEBUG] POST /api/notas/15/
+[2016-05-02 23:22:11 +0000] [5599] [DEBUG] GET /api/notas/
+[2016-05-02 23:22:45 +0000] [5601] [DEBUG] POST /api/notas/
+[2016-05-02 23:22:49 +0000] [5601] [DEBUG] POST /api/notas/
+[2016-05-02 23:22:51 +0000] [5600] [DEBUG] GET /api/notas/
+[2016-05-02 23:23:00 +0000] [5601] [DEBUG] GET /api/notas/21
+Not Found: /api/notas/21
+[2016-05-02 23:23:00 +0000] [5599] [DEBUG] GET /api/notas/21/
+[2016-05-02 23:23:07 +0000] [5599] [DEBUG] PUT /api/notas/21/
+[2016-05-02 23:23:08 +0000] [5601] [DEBUG] GET /api/notas/
+[2016-05-02 23:23:21 +0000] [5600] [DEBUG] GET /api/notas/21/
+[2016-05-02 23:23:36 +0000] [5600] [DEBUG] PUT /api/notas/21/
+[2016-05-02 23:23:37 +0000] [5600] [DEBUG] GET /api/notas/
+[2016-05-02 23:23:45 +0000] [5600] [DEBUG] GET /
+[2016-05-02 23:23:45 +0000] [5599] [DEBUG] POST /api/notas/15/
+[2016-05-02 23:24:51 +0000] [5599] [DEBUG] GET /
+[2016-05-02 23:24:51 +0000] [5600] [DEBUG] POST /api/notas/15/
+[2016-05-02 23:24:52 +0000] [5600] [DEBUG] GET /
+[2016-05-02 23:24:53 +0000] [5601] [DEBUG] POST /api/notas/15/
+[2016-05-02 23:25:20 +0000] [5599] [DEBUG] GET /
+[2016-05-02 23:25:20 +0000] [5601] [DEBUG] POST /api/notas/15/
+[2016-05-02 18:27:53 +0000] [5590] [INFO] Handling signal: term
+[2016-05-02 23:27:53 +0000] [5599] [INFO] Worker exiting (pid: 5599)
+[2016-05-02 23:27:53 +0000] [5600] [INFO] Worker exiting (pid: 5600)
+[2016-05-02 23:27:53 +0000] [5601] [INFO] Worker exiting (pid: 5601)
+[2016-05-02 18:27:53 +0000] [5590] [INFO] Shutting down: Master

@@ -3,10 +3,16 @@ from .models import Nota
 from .serializers import NotaSerializer
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.views.generic import ListView
 
-def home(request):
-    return render(request, 'cliente.html', {})
+
+# def home(request):
+#     return render(request, 'cliente.html', {})
+class IndexView(ListView):
+    template_name = 'cliente.html'
+    model = Nota
+    context_object_name = 'notitas'
 
 
 class NotaViewSet(viewsets.ModelViewSet):

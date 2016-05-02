@@ -1,23 +1,23 @@
 window.addEventListener('load', function()
 {
-/*	$(function(){
-    $.getJSON('/api/notas/15', function(data) {
-        console.log(data);
+    $.ajax({
+    	url: '/api/notas/15/',
+    	type: 'POST',
+    	data: {
+    		"pk": 15,
+    		"titulo": "David2",
+    		"descripcion": "Profesor2"
+    	},
+    })
+    .done(function() {
+    	console.log("success");
+    })
+    .fail(function(e) {
+    	console.log("error");
+    })
+    .always(function() {
+    	console.log("complete");
     });
-});*/
-   jQuery.ajax({
-         type: "DELETE",
-         url: "http://localhost/api/notas",
-         contentType: "application/json; charset=utf-8",
-         data: '{"pk": 15}',
-         dataType: "json",
-         success: function (data, status, jqXHR) {
-             // do something
-         },
-     
-         error: function (jqXHR, status) {
-             // error handler
-         }
-     });
+    
 }
-, false)
+, false);

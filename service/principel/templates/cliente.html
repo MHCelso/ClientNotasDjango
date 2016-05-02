@@ -5,10 +5,22 @@
 	<meta charset="UTF-8">
 	<title>Cliente</title>
 	<link rel="stylesheet" href="{% static "css/estilo.css" %}"/>
-	<script src="{% static "js/jquery-1.12.3.min.js" %}"></script>
-	<script src="{% static "js/principal.js" %}"></script>
+	
 </head>
 <body>
-	<h1>Hola</h1>
+	<h1>Hola a todos °!!</h1>
+	<select name="nota">
+		<option>Elige una Nota</option>
+
+		{% for nota in notitas %}
+			<option value="{{ nota.id }}">
+			{{ nota.titulo }}
+			</option>
+		{% endfor %}
+
+	</select> 
+
+	<script src="{% static "js/jquery-1.12.3.min.js" %}"></script>
+	<script src="{% static "js/principal.js" %}"></script>
 </body>
 </html>

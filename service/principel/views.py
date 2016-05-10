@@ -5,7 +5,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from django.shortcuts import render, redirect
 from django.views.generic import ListView
-
+from django.http import JsonResponse, HttpResponse
 
 # def home(request):
 #     return render(request, 'cliente.html', {})
@@ -13,6 +13,16 @@ class IndexView(ListView):
     template_name = 'cliente.html'
     model = Nota
     context_object_name = 'notitas'
+
+
+def NotaAjax(request):
+    if request.method == 'POST':
+        if request.is_ajax():
+            notita = Nota.objects.get(id = request.POST.get['pk'])
+            response = JsonResponse({'titulo' : notita.titulo, 'descripcion' : notita.descripcion})
+            return HttpResponse(response.content)
+    else:
+        return redirect('/')
 
 
 class NotaViewSet(viewsets.ModelViewSet):

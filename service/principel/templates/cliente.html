@@ -3,24 +3,42 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 	<title>Cliente</title>
 	<link rel="stylesheet" href="{% static "css/estilo.css" %}"/>
-	
 </head>
 <body>
-	<h1>Hola a todos °!!</h1>
-	<select name="nota">
-		<option>Elige una Nota</option>
 
-		{% for nota in notitas %}
-			<option value="{{ nota.id }}">
-			{{ nota.titulo }}
-			</option>
-		{% endfor %}
-
+	<h1 id="elauno">Cliente en Django para consumir APIRest "Notas"</h1>
+	<div class="withSelect">
+	<div class="talSelect">
+	<h3>Selecciona o Crea una Nota</h3>
+	<select>
+		<option value = "nulo">Crea una Nota</option>
 	</select> 
+	</div>
+
+	<div class="forForm">		
+		<form>
+		<label for="tituloM">Título: 
+		<input id="tituloI" type="text" name="tituloM" required="true">
+		</label>
+		<br>
+		<label for="descripcionM">Descripción: 
+		<br>		
+		<textarea name="descripcionM" id="textarea" cols="30" rows="8" resize="none" required="true">
+		</textarea>
+		</label>
+		<br>
+		<button id="btn_guardar" class="btnGuardar" type="submit">Guardar</button>
+		<button id="btn_eliminar" class="btnEliminar" type="button">Eliminar</button>
+		</form>
+	</div>
+	</div>
 
 	<script src="{% static "js/jquery-1.12.3.min.js" %}"></script>
+	<script src="{% static "js/js-cookie.js" %}"></script>
+	<script src="{% static "js/Nota.js" %}"></script>
 	<script src="{% static "js/principal.js" %}"></script>
 </body>
 </html>

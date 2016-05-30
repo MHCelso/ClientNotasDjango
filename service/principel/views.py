@@ -15,14 +15,14 @@ class IndexView(ListView):
     context_object_name = 'notitas'
 
 
-def NotaAjax(request):
-    if request.method == 'POST':
-        if request.is_ajax():
-            notita = Nota.objects.get(id = request.POST.get['pk'])
-            response = JsonResponse({'titulo' : notita.titulo, 'descripcion' : notita.descripcion})
-            return HttpResponse(response.content)
-    else:
-        return redirect('/')
+#def NotaAjax(request):
+#    if request.method == 'POST':
+#        if request.is_ajax():
+ #           notita = Nota.objects.get(id = request.POST.get['pk'])
+ #           response = JsonResponse({'titulo' : notita.titulo, 'descripcion' : notita.descripcion})
+ #           return HttpResponse(response.content)
+ #   else:
+ #       return redirect('/')
 
 
 class NotaViewSet(viewsets.ModelViewSet):

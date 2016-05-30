@@ -17,13 +17,14 @@ from django.conf import settings
 from django.conf.urls import url, include
 from django.conf.urls.static import static
 from django.contrib import admin
-from principel.views import IndexView, NotaAjax
+from principel.views import IndexView
 
 urlpatterns = [
     url(r'^$', IndexView.as_view(), name='notitas'),
     url(r'^', include('principel.urls')),
-    url(r'^api/notas/$', NotaAjax, name = 'NotaAjax'),
+    #url(r'^api/notas/$', NotaAjax, name = 'NotaAjax'),
     url(r'^admin/', admin.site.urls),
+    url(r'', include('gcm.urls')),
 ]
 
 if settings.DEBUG:

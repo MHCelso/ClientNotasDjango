@@ -66,6 +66,7 @@ Nota.getAll(
 
                    nuevaNota.insert();
                    //location.reload();
+                   //'{"dev_id": "test", "reg_id":"abcd", "name":"test device"}'
                 }
             }, false);
 

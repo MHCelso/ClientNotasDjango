@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'principel',
+    'gcm',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -129,9 +130,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 #STATIC_ROOT = "/var/www/envForApi/static/"
+GCM_PACKAGE = 'com.mhcelso.net.brinchi'
+GCM_APIKEY = 'AIzaSyB1yfxgjs0QyLAQ9GJouxUdWv6x2PObKJM'
 STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static")
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "statics"),
     )
-
